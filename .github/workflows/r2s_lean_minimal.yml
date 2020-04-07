@@ -1,6 +1,12 @@
+name: r2s Lean版openwrt 
+
 on:
-  watch:
-    types: started
+  push:
+    branches: 
+      - master
+    paths:
+      - '.github/workflows/r2s_lean_minimal.yml'
+
 
 jobs:
 
